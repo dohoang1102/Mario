@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="marioType_Tileset_Icy" tilewidth="32" tileheight="32">
+  <image source="marioType_Tileset_Icy.png" width="192" height="384"/>
+ </tileset>
+ <tileset firstgid="73" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYGCBNRqmFRCiodnkAGMkjA8oI2EQkKClo+gIcPmD3LRAajqiVnoY6PiA2W+MByMDFRIwPQE9wpGYNEJpeTTQ6YFaYDj4QxKIpYBYms72wtIOLvsdkDAxQB6IFYBYEY8aOzyYWCAGxOJYxNWHCdYdJhgA/vlxR7gLAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="15">
+  <object name="SpawnPoint" x="675" y="5" width="27" height="25"/>
+ </objectgroup>
+ <layer name="Foreground" width="50" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYOgBGyqrGwUjFzjRWd8oGAWjYBTgA8TWW9Qqg0bryaEFAMfBZPK4CwAA
+  </data>
+ </layer>
+ <layer name="Meta" width="50" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYGCBJxomBnhRWd1AAGL9TGrYjFRATjoCAXLTyGBLW+j+xxUW+NSRG4bDCYyGwfABAx2P5NqPXrbgModaZRDMHFxuJaXMGMx4uAAA+9hcMbgLAAA=
+  </data>
+ </layer>
+</map>
